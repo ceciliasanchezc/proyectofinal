@@ -1,0 +1,37 @@
+Algoritmo nota
+	
+	DEFINIR N1,N2,N3,N4,S Como Real
+	
+	ESCRIBIR " NOTA DE ASISTENCIA "
+	LEER N1
+	
+	ESCRIBIR " NOTA DE PRACTICAS "
+	LEER N2
+	
+	ESCRIBIR " NOTA DE PARCIAL "
+	LEER N3
+	
+	ESCRIBIR " NOTA DE EXAMEN FINAL "
+	LEER N4
+	
+	S<-N1+N2+N3+N4
+	
+	ESCRIBIR S
+	
+	Si S>=70 Entonces
+		ESCRIBIR  " APROBO "
+	SiNo
+		ESCRIBIR " REPROBO "
+	Fin Si
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
